@@ -22,35 +22,37 @@ cd Solar_AI_assistant
 
 
 ### 2️⃣ Create a Virtual Environment (Recommended)
-bash
+```bash
 python -m venv venv
+```
 
 Activate the virtual environment:  
 - Windows:  
-  bash
+  ```bash
   venv\Scripts\activate
-  
+  ```
+
 - Mac/Linux:  
-  bash
+  ```bash
   source venv/bin/activate
-  
+  ```
 
 ### 3️⃣ Install Dependencies
-bash
+```bash
 pip install -r requirements.txt
-
+```
 
 ### 4️⃣ Set Up API Key
 1. Create a *.env* file in the project root.  
 2. Add your OpenRouter API Key inside .env:  
-   bash
+   ```bash
    OPENROUTER_API_KEY=your_openrouter_api_key_here
-   
+   ```
 
 ### 5️⃣ Run the Application
-bash
+```bash
 streamlit run app.py
-
+```
 
 The app will launch in your browser at *http://localhost:8501/* 🎉  
 
